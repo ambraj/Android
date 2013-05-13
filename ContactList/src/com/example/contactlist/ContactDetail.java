@@ -27,8 +27,8 @@ public class ContactDetail extends Activity {
 		cursorMain.moveToPosition(position);
 		
 		name = cursorMain.getString(cursorMain.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME));
-		mobn = cursorMain.getString(cursorMain.getColumnIndex(ContactsContract.Contacts.));
-		email = cursorMain.getString(cursorMain.getColumnIndex(ContactsContract.CommonDataKinds.Email.DATA));
+		//mobn = cursorMain.getString(cursorMain.getColumnIndex(ContactsContract.Contacts.));
+		//email = cursorMain.getString(cursorMain.getColumnIndex(ContactsContract.CommonDataKinds.Email.DATA));
 		
 		TextView cNameTxtView = (TextView) findViewById(R.id.textView1);
 		//cNameTxtView.setText(strContactName);
